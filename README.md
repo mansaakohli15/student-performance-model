@@ -153,16 +153,5 @@ python predict.py --model-path artifacts/models/best_model_math_score.joblib --i
 
 ---
 
-## Resume Ready Bullet Points
-
-You can include these impactful bullet points directly on your resume:
-
-- **End-to-End Machine Learning Pipeline**: Built a modular, production-ready ML pipeline in Python using `scikit-learn` to predict student academic outcomes, implementing leak-free `ColumnTransformer` architectures for heterogeneous ordinal and nominal categorical features.
-- **Multi-Model Benchmarking & Optimization**: Benchmarked 9 regression architectures (Regularized Linear, Huber Robust, Random Forest, GBDT, Stacking) via 5-Fold Cross-Validation, leveraging `GridSearchCV` to achieve an **$R^2$ of 0.8815** and **RMSE of 5.37 points** (an ~11% error reduction over baseline).
-- **Residual Diagnostics & Model Explainability**: Conducted statistical residual diagnostics (Q-Q normality, homoscedasticity) and feature attribution analysis, quantifying socio-economic and test-preparation course efficacy on academic achievement.
-- **Inference & Artifact Serialization**: Designed a decoupled inference engine with `joblib` serialization, schema validation, and CLI support for sub-millisecond single and batch predictions.
-
----
-
 ## License
 Distributed under the MIT License. See `LICENSE` for details.
